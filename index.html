@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja do Zé</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pagina">
+        <div class="card">
+            <header class="card-cabecalho">
+                <div class="card-corpo">
+                <h1>Loja do Zé</h1>
+                <p class="card-subtitulo">Gerencie a categoria produtos</p>
+            
+            </header>
+            <section class="secao-form">
+            <h2>Nova Categoria</h2>
+            <form id="form-categoria" class="Form">
+                <input type="text" id="descricao" placeholder="Ex: Brinquedos">
+                <div>
+                    <button id="btnCadastrar" type="submit" class="btn-cadastrar">Cadastrar</button>
+                    <button id="btnLimpar" type="reset" class="btn-limpar">Limpar</button>
+                </div>
+                
+            </form>
+            <p id="mensagem"></p>
+            </section>
+            <section class="secao-lista">
+                <h2>Categorias</h2>
+                <ul id="lista-categorias"></ul>
+            </section>
+            <!-- Para iniciar o projeto de npm start -->
+            </div>
+        </div>
+    </div>
+     <script src="app.js"></script>
+</body>
+</html>
